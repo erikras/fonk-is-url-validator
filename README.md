@@ -44,7 +44,7 @@ You can customize the error message displayed in two ways:
 ```javascript
 import { isUrl } from '@lemoncode/fonk-is-url-validator';
 
-isUrl.setErrorMessage('El campo debe de ser numérico');
+isUrl.setErrorMessage('This field should be a URL');
 ```
 
 - Locally just override the error message for this validationSchema:
